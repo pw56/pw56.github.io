@@ -29,5 +29,10 @@ Dies ist meine persönliche Webseite über mich.
 ## 🇮🇹 Italiano 🇮🇹
 Questo è il mio sito web personale.
 
+## 🇵🇹 Português 🇵🇹
+Esta é a minha página sobre mim.
+
 ## عربي
 هذا هو موقع الويب الشخصي الخاص بي.
+
+Translated by [Google Translate](https://translate.google.com/) or [DeepL Translate](https://www.deepl.com/)
