@@ -1,0 +1,291 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1440px;
+    min-height: 1500px;
+    background-color: white;
+}
+
+/* Profile Section */
+.profile {
+    position: relative;
+}
+
+/* Profile Icon */
+.profile-icon {
+    position: absolute;
+    left: 32px;
+    top: 32px;
+}
+
+.profile-avatar {
+    width: 503px;
+    height: 500px;
+    position: relative;
+}
+
+.profile-image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 2px;
+}
+
+/* Name Section */
+.name-section {
+    position: absolute;
+    left: 564px;
+    top: 32px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.main-name {
+    font-size: 175px;
+    line-height: 1;
+    margin-bottom: 20px;
+    width: 812px;
+    height: 218px;
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-size: 62.5px;
+    line-height: 1;
+    width: 844px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+}
+
+/* Introduction Section */
+.introduction {
+    position: absolute;
+    left: 564px;
+    top: 370px;
+}
+
+.introduction .content-block {
+    background-color: #e9e9e9;
+    width: 844px;
+    height: 162px;
+    border-radius: 15px;
+    padding: 17px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.introduction p {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    color: black;
+    width: 810px;
+}
+
+/* Information Section */
+.information {
+    position: absolute;
+    left: 564px;
+    top: 564px;
+}
+
+.information .content-block {
+    background-color: #e9e9e9;
+    width: 844px;
+    height: 323px;
+    border-radius: 15px;
+    padding: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information ul {
+    list-style-type: disc;
+    margin-left: 40px;
+    width: 810px;
+}
+
+.information li {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.4;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.information li:last-child {
+    margin-bottom: 0;
+}
+
+/* SNS Section */
+.sns {
+    position: absolute;
+    left: 32px;
+    top: 564px;
+}
+
+.sns .content-block {
+    background-color: #e9e9e9;
+    width: 500px;
+    height: 340px;
+    border-radius: 15px;
+    padding: 20px 24px;
+}
+
+.sns-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+    height: 61px;
+}
+
+.sns-item:last-child {
+    margin-bottom: 0;
+}
+
+.sns-icon {
+    width: 61px;
+    height: 61px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+/* Icon backgrounds */
+.github-icon {
+    background-image: url('github-mark.png');
+    border-radius: 8px;
+}
+
+.discord-icon {
+    background-image: url('https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?w=61&h=61&fit=crop&crop=center');
+    border-radius: 8px;
+}
+
+.qiita-icon {
+    background-image: url('qiita-icon.png');
+    border-radius: 8px;
+}
+
+.email-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* SNS text and links */
+.sns-link {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #29297c;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 61px;
+    width: 391px;
+}
+
+.sns-link:hover {
+    text-decoration: underline;
+}
+
+.sns-text {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 61px;
+    width: 391px;
+}
+
+/* Email specific styling */
+.sns-item:last-child .sns-link {
+    font-size: 32px;
+}
+
+/* Apps Section */
+.apps {
+    position: absolute;
+    left: 32px;
+    top: 951px;
+}
+
+.app-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.app-placeholder {
+    background-color: #d9d9d9;
+    width: 280px;
+    height: 280px;
+    border-radius: 50px;
+}
+
+.apps-title {
+    position: absolute;
+    left: 0;
+    top: 91.5px;
+    transform: translateY(-50%);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    color: black;
+    width: 315px;
+    height: 183px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1440px) {
+    .page {
+        min-width: 100%;
+        transform: scale(0.7);
+        transform-origin: top left;
+        width: 142.857%;
+        height: 142.857%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .page {
+        transform: scale(0.5);
+        width: 200%;
+        height: 200%;
+    }
+}
