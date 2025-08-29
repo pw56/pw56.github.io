@@ -177,7 +177,7 @@ body {
 
 /* Icon backgrounds */
 .github-icon {
-    background-image: url('github-mark.png');
+    background-image: url('../image/github.png');
     border-radius: 8px;
 }
 
@@ -187,7 +187,7 @@ body {
 }
 
 .qiita-icon {
-    background-image: url('qiita-icon.png');
+    background-image: url('../image/qiita.png');
     border-radius: 8px;
 }
 
