@@ -1,0 +1,8 @@
+"index.html"のアプリ一覧が"script.js"を通して"app_list.yml"の内容を変換して表示するようにしてください。
+
+"app_list.yml"のフォーマット:
+
+app-id
+  url: "url"
+  name: "app name"
+  icon: "src"
